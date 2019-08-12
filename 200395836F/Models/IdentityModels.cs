@@ -29,5 +29,7 @@ namespace _200395836F.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<_200395836F.Models.UserChat> UserChats { get; set; }
     }
 }
